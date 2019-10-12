@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Neural Net Education</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <!--Boostrap 4 to help with website layouts-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<section class="logo">
+    <img src="logo.png" alt="logo" height="90">
+</section>
+
+<section class="head">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="topics.html">Topics</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+
+<body>
+    <!--Contact Form-->
+    <section>
+
+        <div class="contactTopicMove">
+            <!--Contact Info is moved away from edge-->
+
+            <h3>Contact</h3>
+
+            <!--NOTE: AS THIS IS NOT A REAL WEBSITE THE FROM WILL NOT GO ANYWHERE-->
+
+            <form>
+                <input type="text" id="inputSubject" placeholder="Subject" class="inputSubject"></input>
+
+                <textarea type="text" id="inputBody" placeholder="Contact infomation" class="inputBody"></textarea>
+            </form>
+            <!--When send is clicked text will be cleared-->
+            <button onclick="clearEmail()" class="sendMailBtn">Send</button>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="contactTopicMove">
+            <!--Contact Info is moved away from edge-->
+            <h4>Or Email Me Directly</h4>
+            <a href="mailto:finnniansproject@gmail.com?Subject=NeuralNetEducation%20Contact" target="_top">Click Here To
+                Send Email</a>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="topics.html">Topics</a>
+        </footer>
+    </section>
+
+</body>
+
+</html>

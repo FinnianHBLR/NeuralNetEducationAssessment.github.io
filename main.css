@@ -1,0 +1,127 @@
+/*Lato font from Google https://fonts.google.com/specimen/Lato?selection.family=Lato*/
+* { 
+    font-family: 'Lato', sans-serif; 
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f4f3;
+    text-align: center;
+}
+  
+li {
+    display: inline-block; 
+}
+  
+li a {
+    display: block;
+    color: #0A0908;
+    text-align: center;
+    padding: 10px 155px;
+    text-decoration: none;  
+}
+
+/*Changes the hyperlink to black on top bar*/
+li a:hover{
+color: #0A0908;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+  
+li a.active {
+    background-color: #999e9c;
+}
+/*W3 Nav Bar*/
+
+.logo{
+    background-color: #22333B;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #0A0908;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    right: 0;
+    bottom: 0;
+}
+
+/*Changes the hyperlink to white */
+footer a {
+    padding: 10px;
+    color: white;
+}
+
+/*Changes the hyperlink to white when hovered over instead of blue*/
+footer a:hover {
+    color: white;
+}
+
+.centerMainInfo {
+    text-align: center;
+}
+
+.inputSubject {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  
+}
+
+.inputBody {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.sendMailBtn {
+    width: 10%;
+    background-color: #22333B;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.aboutMove {
+    margin: 50px;    
+}
+.contactTopicMove {
+    margin: 20px;
+}
+
+.topicList {
+    /*Displays list vertically for topics*/
+    display: grid;
+    float: left;
+}
+
+.nextBackStyle {
+    background-color: #C0AFA0;
+    color: white;
+    width: 100px;
+}
+
+/*A container is needed for the buttons as they need to be centered together https://stackoverflow.com/questions/39196643/how-to-center-two-buttons-next-to-each-other-but-center-of-the-screen*/
+.btnContainer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
