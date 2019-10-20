@@ -1,6 +1,8 @@
 /*Lato font from Google https://fonts.google.com/specimen/Lato?selection.family=Lato*/
 * { 
     font-family: 'Lato', sans-serif; 
+    font-size: large;
+    box-sizing: border-box;
 }
 
 
@@ -66,9 +68,6 @@ footer a:hover {
     color: white;
 }
 
-.centerMainInfo {
-    text-align: center;
-}
 
 .inputSubject {
     width: 50%;
@@ -97,6 +96,7 @@ footer a:hover {
     color: white;
     padding: 10px;
     border-radius: 5px;
+    border: none;
 }
 
 .aboutMove {
@@ -112,10 +112,14 @@ footer a:hover {
     float: left;
 }
 
+/*Style for Buttons*/
 .nextBackStyle {
     background-color: #C0AFA0;
     color: white;
     width: 100px;
+    padding: 12, 30;
+    border-radius: 5px;
+    border: none;
 }
 
 /*A container is needed for the buttons as they need to be centered together https://stackoverflow.com/questions/39196643/how-to-center-two-buttons-next-to-each-other-but-center-of-the-screen*/
@@ -125,3 +129,6 @@ footer a:hover {
     align-items: center;
     height: 100%;
 }
+
+/*TIMELINE CSS refrenced from W3 https://www.w3schools.com/howto/howto_css_timeline.asp*/
+
