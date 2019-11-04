@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,32 +10,69 @@
     <script src='main.js'></script>
 
     <!--Boostrap 4 to help with website layouts-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-<section class="logo"> 
-        <img src="logo.png" alt="logo" height="90">
+<section class="logo">
+    <img src="logo.png" alt="logo" height="90">
 </section>
-    
-    <section class="head">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="topics.html">Topics</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
-        </section>
+
+<section class="head">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="topics.html">Topics</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+
 <body>
 
     <div class="contactTopicMove">
-        <h3>Neuron Basics</h3> 
-        <p>The </p>
-    
-    </div>
+        <h3>Neuron Basics</h3>
 
-<body>
-    
+    </div>
+    <section>
+        <div class="contactTopicMove">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <p>A Neural Network works on the principal of simulating a real world set of neurons.
+                            A neuron works naturally in the brain by sending electrical signals that connect all neurons
+                            together. Once a single neuron sends a signal it creates a wave or butterfly effect outwards
+                            to other neurons.
+                            A neuron acts only when a signal is strong enough for it to also activate, for example if a
+                            neuron is to send
+                            a signal and it is strong enough to activate the next, a signal will be sent. This is known
+                            as a weight.
+                            In a neural network the weights are calibrated or "Trained" to give a specific end result at
+                            the output layer.</p>
+                    </div>
+                    <div class="col-sm">
+                        <img src="Neurons.png" alt="Neuron picture" class="neuronImage">
+                    </div>
+                </div>
+            </div>
+
+            <!--The buttons below have containers around them-->
+            <div class="btnContainer">
+                <div class="button-wrapper">
+
+                    <button class="nextBackStyle" onclick="window.location.href = 'history.html';">< Back </button>
+
+                    <button class="nextBackStyle" onclick="window.location.href = 'dataSets.html';"> Next > </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
 </body>
+
+
+
 </html>

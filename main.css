@@ -46,8 +46,14 @@ li a.active {
     background-color: #22333B;
 }
 
+.footerSpace{
+    margin: 100px;
+    /*Fix for footer spacing covering up buttons https://stackoverflow.com/questions/13881548/sticky-footer-hiding-content#comment19120543_13881548*/
+}
+
 footer {
     position: fixed;
+    height: 90px;
     width: 100%;
     background-color: #0A0908;
     color: white;
@@ -141,7 +147,7 @@ footer a:hover {
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
     content: '';
-    position: absolute;
+    position: absolute; /*May make content shift behind each other*/
     width: 6px;
     background-color: #22333B;
     top: 0;
@@ -157,20 +163,7 @@ footer a:hover {
     background-color: inherit;
     width: 50%;
   }
-  
-  /* The circles on the timeline */
-  .TimeContainer::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: #22333B;
-    border: 4px solid #C0AFA0;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-  }
+
   
   /* Place the container to the left */
   .TimeLeft {
@@ -210,15 +203,8 @@ footer a:hover {
     padding-right: 25px;
     }
     
-    /* Make sure that all arrows are pointing leftwards */
-    .TimeContainer::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-    }
   
-    /* Make sure all circles are at the same spot */
+    /* Make sure all lines move correclty */
     .timeLeft::after, .TimeRight::after {
     left: 15px;
     }
@@ -230,4 +216,8 @@ footer a:hover {
   }
   
   /*============ TIMELINE CSS refrenced from W3 https://www.w3schools.com/howto/howto_css_timeline.asp =============*/
-  
+  .neuronImage {
+      width: 70%;
+      height: 85%;
+  }
+
