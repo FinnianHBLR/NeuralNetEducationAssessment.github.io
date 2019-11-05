@@ -1,2 +1,0 @@
-Click logo to go home
-Add <main>

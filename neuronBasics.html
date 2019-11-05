@@ -15,18 +15,20 @@
 
 </head>
 <section class="logo">
-    <img src="logo.png" alt="logo" height="90">
+    <!--Click logo to go home-->
+    <a href="index.html">
+        <img src="logo.png" alt="logo" height="90">
+    </a>
 </section>
 
-<section class="head">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="topics.html">Topics</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<!--Uses the responsive classes to change the head-->
+<section class="mobileHead">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="topics.html">Topics</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 </section>
 
 <body>
@@ -37,7 +39,7 @@
     </div>
     <section>
         <div class="contactTopicMove">
-            
+
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -62,9 +64,10 @@
             <div class="btnContainer">
                 <div class="button-wrapper">
 
-                    <button class="nextBackStyle" onclick="window.location.href = 'history.html';">< Back </button>
-
-                    <button class="nextBackStyle" onclick="window.location.href = 'dataSets.html';"> Next > </button>
+                    <button class="nextBackStyle" onclick="window.location.href = 'history.html';">
+                        < Back </button> <button class="nextBackStyle"
+                            onclick="window.location.href = 'dataSets.html';"> Next >
+                    </button>
                 </div>
             </div>
         </div>
@@ -72,6 +75,14 @@
     </section>
 </body>
 
-
+<section>
+        <div class="footerSpace">
+            <footer>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="topics.html">Topics</a>
+            </footer>
+        </div>
+    </section>
 
 </html>

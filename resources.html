@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,52 +10,103 @@
     <script src='main.js'></script>
 
     <!--Boostrap 4 to help with website layouts-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-<section class="logo"> 
+<section class="logo">
+    <!--Click logo to go home-->
+    <a href="index.html">
         <img src="logo.png" alt="logo" height="90">
+    </a>
 </section>
-    
-    <section class="head">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="topics.html">Topics</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
-        </section>
+
+<!--Uses the responsive classes to change the head-->
+<section class="mobileHead">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="topics.html">Topics</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+</section>
+
 <body>
 
     <div class="contactTopicMove">
-        <h3>Futher Reading and Resources</h3> 
-    
+        <h3>Futher Reading and Resources</h3>
 
-    <div class="contactTopicMove">
-
+        <div class="contactTopicMove">
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <p><ul>
-                                <li>MacQueen, J. B. (1967). Some Methods for classification and Analysis of Multivariate Observations. Proceedings of 5th Berkeley Symposium on Mathematical Statistics and Probability. 1. University of California Press. pp. 281–297. MR 0214227. Zbl 0214.46201. Retrieved 2019-11-05</li>
-                                <li>Cao, Chensi & Liu, Feng & Tan, Hai & Song, Deshou & Shu, Wenjie & Li, Weizhong & Zhou, Yiming & Bo, Xiaochen & Xie, Zhi. (2018). Deep Learning and Its Applications in Biomedicine. Genomics, Proteomics & Bioinformatics. 16. 10.1016/j.gpb.2017.07.003. </li>
-                                <li>Resnet vs AlexNet https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5</li>
-                                <li>Das, S. (2017, November 17). CNN Architectures: LeNet, AlexNet, VGG, GoogLeNet, ResNet and more…. Retrieved from medium: https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5</li>
+                        <p>
+                            <ul>
+                                <li>MacQueen, J. B. (1967). Some Methods for classification and Analysis of Multivariate
+                                    Observations. Proceedings of 5th Berkeley Symposium on Mathematical Statistics and
+                                    Probability. 1. University of California Press. pp. 281–297. MR 0214227. Zbl
+                                    0214.46201. Retrieved 2019-11-05</li>
+                                <li>Cao, Chensi & Liu, Feng & Tan, Hai & Song, Deshou & Shu, Wenjie & Li, Weizhong &
+                                    Zhou, Yiming & Bo, Xiaochen & Xie, Zhi. (2018). Deep Learning and Its Applications
+                                    in Biomedicine. Genomics, Proteomics & Bioinformatics. 16.
+                                    10.1016/j.gpb.2017.07.003. </li>
+                                </li>
+                                <li>Das, S. (2017, November 17). CNN Architectures: LeNet, AlexNet, VGG, GoogLeNet,
+                                    ResNet and more…. Retrieved from medium:
+                                    https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5
+                                </li>
                             </ul>
                         </p>
                     </div>
+
                     <div class="col-sm">
+                    
+                        <h3>Recommended Reading:</h3>
+                        How does training work? <a
+                            href="https://towardsdatascience.com/how-do-we-train-neural-networks-edd985562b73">https://towardsdatascience.com</a>
+                        <br>
+                        WGAN <a
+                            href="https://machinelearningmastery.com/how-to-implement-wasserstein-loss-for-generative-adversarial-networks/">https://machinelearningmastery.com</a>
+                        <br>
+                        Visualizing ResNets <a
+                            href="https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8">towardsdatascience.com</a>
+                        <br>
+                        Bayesian Network <a
+                            href="http://computers.in4mnation.com/bayesian-network-uses-benefits/">http://computers.in4mnation.com</a>
+                        <br>
+                        Clustering <a
+                            href="https://en.wikipedia.org/wiki/Cluster_analysis">https://en.wikipedia.org/wiki/Cluster</a>
+                        <br>
+                        SVM <a
+                            href="https://en.wikipedia.org/wiki/Support-vector_machine">https://en.wikipedia.org/wiki/SVM</a>
+                        <br>
+                        Resnet, AlexNet and others
+                        <a
+                            href="https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5">https://medium.com</a>
                     </div>
+                
                 </div>
             </div>
         </div>
+    </div>
 
-
-</div>
-
-<body>
-    
+    <div class="btnContainer">
+        <div class="button-wrapper">
+            <button class="nextBackStyle" onclick="window.location.href = 'topics.html';">
+                Topics </button>
+            </button>
+        </div>
+    </div>
 </body>
+
+<section>
+    <div class="footerSpace">
+        <footer>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="topics.html">Topics</a>
+        </footer>
+    </div>
+</section>
+
 </html>

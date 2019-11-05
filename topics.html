@@ -15,18 +15,20 @@
 
 </head>
 <section class="logo">
-    <img src="logo.png" alt="logo" height="90">
+    <!--Click logo to go home-->
+    <a href="index.html">
+        <img src="logo.png" alt="logo" height="90">
+    </a>
 </section>
 
-<section class="head">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="topics.html">Topics</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<!--Uses the responsive classes to change the head-->
+<section class="mobileHead">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="topics.html">Topics</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 </section>
 
 <body>
@@ -35,40 +37,48 @@
             <h3>Topics</h3>
         </div>
 
-        <ol class="topicList">
-            <li>
-                <h4><a href="introduction.html">1. Introduction</a></h4>
-            </li>
-            <li>
-                <h4><a href="history.html">2. History</h4></a>
-            </li>
-            <li>
-                <h4><a href="neuronBasics.html">3. Neuron Basics</a></h4>
-            </li>
-            <li>
-                <h4><a href="dataSets.html">4. DataSets</a></h4>
-            </li>
-            <li>
-                <h4><a href="training.html">5. Training Neural Networks</a></h4>
-            </li>
-            <li>
-                <h4><a href="usingNet.html">6. Using Neural Networks</a></h4>
-            </li>
-            <li>
-                <h4><a href="resources.html">7. Resources</a></h4>
-            </li>
-        </ol>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <ol class="topicList">
+                        <li class="centerTopics">
+                            <h4><a href="introduction.html">1. Introduction</a></h4>
+                        </li>
+                        <li class="centerTopics">
+                            <h4><a href="history.html">2. History</h4></a>
+                        </li>
+                        <li class="centerTopics">
+                            <h4><a href="neuronBasics.html">3. Neuron Basics</a></h4>
+                        </li>
+                        <li class="centerTopics">
+                            <h4><a href="dataSets.html">4. DataSets</a></h4>
+                        </li>
+                        <li class="centerTopics">
+                            <h4><a href="training.html">5. Training Neural Networks</a></h4>
+                        </li>
+                        <li class="centerTopics">
+                            <h4><a href="usingNet.html">6. Using Neural Networks</a></h4>
+                        </li>
+                        <li class="centerTopics">
+                            <h4><a href="resources.html">7. Resources</a></h4>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
     </section>
 </body>
 
 
-    <section>
+<section>
+    <div class="footerSpace">
         <footer>
             <a href="contact.html">Contact</a>
             <a href="about.html">About</a>
             <a href="topics.html">Topics</a>
         </footer>
-
-    </section>
+    </div>
+</section>
 
 </html>
