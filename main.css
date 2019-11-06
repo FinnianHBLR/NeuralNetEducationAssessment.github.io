@@ -278,5 +278,5 @@ footer a:hover {
  
   .inheritResp { /*This allows the video content to change size*/
     width: inherit;
-    height: inherit;   
+    /*height: inherit;  CREATES design error with height*/
 }
